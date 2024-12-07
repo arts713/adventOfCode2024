@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Day1 {
     public static int run() {
-        List<String> data = DayData.readInput(1);
+        List<String> data = DayData.readInput("1");
         String[] firstArr = new String[data.size()];
         String[] secondArr = new String[data.size()];
 

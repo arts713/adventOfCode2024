@@ -7,7 +7,7 @@ public class Day2 {
     public static final int DIFF_MAX = 3;
 
     public static int run() {
-        List<String> data = DayData.readInput(2);
+        List<String> data = DayData.readInput("2");
 
         if (data.isEmpty()) {
             return 0;

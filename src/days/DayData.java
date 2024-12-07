@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class DayData {
-    public static List<String> readInput(int day) {
+    public static List<String> readInput(String day) {
         String filePath = String.format("src/assets/Day%s.txt", day);
         File file = new File(filePath);
         List<String> data = new ArrayList<>();
